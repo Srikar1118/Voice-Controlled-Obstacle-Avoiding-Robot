@@ -41,12 +41,7 @@ void setup() {
 }
 void loop() {
   Bluetoothcontrol();
-  //
-  
-  
-  
-  
-  voicecontrol();
+  //voicecontrol();
   int irval = digitalRead(IR);
   //Serial.println(irval);
     if (irval == 0){
